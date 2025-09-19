@@ -1,0 +1,90 @@
+:root{
+    --mainTextColor-light:#000;
+    --secondaryTextColor-light:rgb(51,51,51);
+    --mainLinkColor-light:#d1dee0;
+    --mainBorderColor-light:rgb(218,218,218);
+    --mainBgColor-light:rgb(249,250,251);
+}
+[data-theme="dark"]
+{
+    --mainTextColor:#fff;
+    --secondaryTextColor:#adb0b1;
+    --mainLinkColor:rgb(30,190,214);
+    --mainBorderColor:#2b3031;
+    --mainBgColor:#131415;
+
+}
+*{
+    font-family: 'Readex Pro';
+    line-height: 1.5em;
+    box-sizing: border-box;
+    color: var(--mainTextColor);
+}
+body{
+    background-color: var(--mainBgColor);
+}
+#theme-switcher{
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+#profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transition: 0.3s;
+    border: 1px solid;
+}
+.theme{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    transition: 0.3s;
+    border: 1px solid;
+}
+.theme:hover{
+    height: 33px;
+    width: 33px;
+}
+#theme-dark{
+    background-color: #000;
+}
+#theme-light{
+    background-color: #fff;
+}
+p,li{
+    color: var(--secondaryTextColor);
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+    color: var(--mainLinkColor);
+    font-weight: 500;
+}
+li{
+    line-height: 1.9em;
+}
+.section{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+#wrapper-hero{
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
+.para a{
+    font-weight: 300;
+}
+#profile{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.para1{
+    color: var(--mainTextColor);
+}

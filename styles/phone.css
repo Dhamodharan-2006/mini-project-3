@@ -1,0 +1,16 @@
+.division2{
+    margin: opx;
+    padding: 0px;
+}
+#wrapper-hero{
+    display: flex;
+    gap: 1.5em;
+}
+#profile{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8.9rem;
+}
+.p,.li{
+    font-size: 1rem;
+}
